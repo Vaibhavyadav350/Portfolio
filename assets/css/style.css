@@ -48,13 +48,21 @@
 }
 
 .profile-img {
-  width: 500px; /* Adjust as needed */
-  height: 500px; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fff; /* Optional: adds a border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */
 }
+.profile-imgs {
+  width: 100%; /* Adjust as needed */
+  
+   /* Adjust as needed */
+  height: auto;
+  border-radius: 50%; /* Optional for a circular profile picture */
+}
+
 
 
 
